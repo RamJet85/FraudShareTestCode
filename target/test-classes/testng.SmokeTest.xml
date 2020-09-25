@@ -18,4 +18,17 @@
 		</classes>
 		
 	</test>
+	
+	<test name="IncidentSubmission Test">
+		<classes>
+			<class name ="com.qa.FraudShare.tests.IncidentSubmissionTest"/>
+		</classes>
+		
+	</test>
+	<test name="DataExport Test">
+		<classes>
+			<class name ="com.qa.FraudShare.tests.DataExportTest"/>
+		</classes>
+		
+	</test>
 </suite> <!-- Suite -->

@@ -72,10 +72,12 @@ public class JavaScriptUtils {
 		
 	}
 	
-	public void sendKeysByJs(String id , String value) {
+	public void sendKeysByJs(String id, String value) {
 
 		JavascriptExecutor js = ((JavascriptExecutor) driver);
-		js.executeScript("document.getElementById('" + id + "').value='" + value + "'");
+		js.executeScript("document.getElementById('" + id + "').value ='" + value + "'");
 	}
 
-	}
+	
+
+}

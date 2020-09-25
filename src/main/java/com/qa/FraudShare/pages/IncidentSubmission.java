@@ -34,11 +34,14 @@ public class IncidentSubmission extends BasePage {
 	By Additional = By.xpath("//textarea[@id='FraudDescription']");
 	By IncidentNo = By.xpath("//*[contains(text(),'Incident Number')]");
 	
-	By dateofSubmit = By.id("DateOfInitialContact");
-	By dateofDetection = By.id("DateOfDetection");
-	By IncidentText = By.xpath("//td[contains(text(),'INCIDENT SUBMISSION SUMMARY')]/ancestor::tbody");
+	By dateOfInitial = By.id("DateOfInitialContact");
+	By dateOfDetection = By.id("DateOfDetection");
+	//By IncidentText = By.xpath("//td[contains(text(),'INCIDENT SUBMISSION SUMMARY')]/ancestor::tbody");
+	By incidentText = By.xpath("//td[contains(text(),'Incident Number : ')]");
 	
 	
+	// Mandatory fields error messages
+	By IncidentsErrorsList = By.xpath("//div[@id='incidentTab']//p[@id]");
 	
 	public IncidentSubmission(WebDriver driver) {
 		this.driver = driver;
@@ -70,8 +73,8 @@ public class IncidentSubmission extends BasePage {
 					
 	}
 		
-	public String submitSingleIncident(String PL, String GI, String Dis, String AP, String AM, String TT, String DIC, String DD,
-			String DM, String FS, String text, String AV,String AR){
+	public void submitSingleIncident(String PL, String GI, String Dis, String AP, String AM, String TT, String DIC, String DD,
+			String DM, String FS, String text, String AV,String AR, String Accessed){
 		
 		elementutils.selectValueFromDropDownWithoutSelect(ProductLine, PL);
 		elementutils.selectValueFromDropDownWithoutSelect(GroupORIndividual, GI);
@@ -86,13 +89,53 @@ public class IncidentSubmission extends BasePage {
 		elementutils.doSendKeys(Additional, text);
 		elementutils.getElement(AccountValue).sendKeys(AV);
 		elementutils.getElement(AmountRequested).sendKeys(AR);
-		//elementutils.doClick(AccountWasAccessed);
-		elementutils.selectRadioButtonFromList(AccountWasAccessed, "id", "WasAccountAccessedYes");
+		elementutils.selectRadioButtonFromList(AccountWasAccessed, "id", Accessed);
 		elementutils.doClick(SubmitBtn);
-		return elementutils.waitForElementPresent(IncidentText, 10).getText();
-		//elementutils.waitForElementPresent(Close, 10).click();
+	    elementutils.waitForElementPresent(incidentText, 10);
+	    String incidentTextPopUp = elementutils.getText(incidentText);
+	    System.out.println(incidentTextPopUp);
+	    elementutils.waitForElementPresent(Close, 10).click();
 		
 		
+		
+	}
+	
+	public void incidentSubmissionFromExcel(String PL, String GI, String Dis, String AP, String AM, String TT, String dOI, String dOD, String DM,
+			String FS, String AV, String AR, String WasAcc){
+			
+		elementutils.selectValueFromDropDownWithoutSelect(ProductLine, PL);
+		elementutils.selectValueFromDropDownWithoutSelect(GroupORIndividual, GI);
+		elementutils.selectValueFromDropDownWithoutSelect(Disbursement, Dis);
+		elementutils.Single_Multi_AllSelectDropDown(AccessPoint, AP);
+	    elementutils.Single_Multi_AllSelectDropDown(AccessMethod, AM);
+		elementutils.selectValueFromDropDownWithoutSelect(TransactionType, TT);
+		jsUtil.sendKeysByJs("DateOfInitialContact", dOI);
+		jsUtil.sendKeysByJs("DateOfDetection", dOD);
+		elementutils.selectValueFromDropDownWithoutSelect(DetectionMethod, DM);
+		elementutils.selectValueFromDropDownWithoutSelect(FraudScheme, FS);
+		elementutils.getElement(AccountValue).sendKeys(AV);
+		elementutils.getElement(AmountRequested).sendKeys(AR);
+
+        elementutils.selectRadioButtonFromList(AccountWasAccessed, "id", WasAcc);
+		elementutils.doClick(SubmitBtn);
+		String incidentTextPopUp = elementutils.getText(incidentText);
+	    System.out.println(incidentTextPopUp);
+		
+		elementutils.waitForElementPresent(Close, 10).click();
+		
+	
+		
+	}
+	
+	public void submitIncidentWithoutMandatoryValues(){
+		
+		elementutils.doTextBoxClear(dateOfInitial);
+		elementutils.handleJavaScriptPopUp();
+		elementutils.doTextBoxClear(dateOfDetection);
+		elementutils.handleJavaScriptPopUp();
+		elementutils.doClick(SubmitBtn);
+		elementutils.handleJavaScriptPopUp();
+		elementutils.getListOfErrorMessagesText(IncidentsErrorsList);
 		
 	}
 	

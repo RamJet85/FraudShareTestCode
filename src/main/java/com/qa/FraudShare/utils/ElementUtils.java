@@ -111,6 +111,14 @@ public class ElementUtils {
 		select.selectByVisibleText(value);
 
 	}
+	
+	public void handleJavaScriptPopUp() {
+
+		Alert alert = driver.switchTo().alert();
+		String text = alert.getText();
+		System.out.println(text);
+		alert.accept();
+	}
 
 	// This is method returns list Drop down count size
 	public int getDropDownOptionsCount(By locator) {
@@ -166,6 +174,16 @@ public class ElementUtils {
 		return elements;
 
 	}
+	
+	public void getListOfErrorMessagesText(By locator){
+		List<WebElement> List = getElements(locator);
+		System.out.println(List.size());
+		for (WebElement ele : List) {
+			String text = ele.getText();
+			System.out.println("The list of error messages are: "+text);
+			
+		}
+	}
 
 	// Using web elements method or we can implement like give me the list i'll click on the method
 	// This method keep search for the value after that match it will select
@@ -208,7 +226,7 @@ public class ElementUtils {
 		return list.size();
 
 	}
-	// This method is used to select the radion button from the list
+	// This method is used to select the radio button from the list
 
 	public void selectRadioButtonFromList(By locator, String attribute, String value) {
 

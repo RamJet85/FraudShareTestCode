@@ -10,7 +10,7 @@ import com.qa.FraudShare.pages.DashBoard;
 import com.qa.FraudShare.pages.DataExport;
 import com.qa.FraudShare.pages.IncidentSubmission;
 import com.qa.FraudShare.pages.LoginPage;
-import com.qa.FraudShare.pages.Submission;
+import com.qa.FraudShare.pages.SettingsPage;
 
 public class BaseTest {
 		
@@ -19,9 +19,9 @@ public class BaseTest {
 	public WebDriver driver;
 	public LoginPage loginPage;
 	public DashBoard dashBoard;
-	public IncidentSubmission IS;
-	public Submission SB;
+	public IncidentSubmission incidentSubmission;
 	public DataExport dataExport;
+	public SettingsPage settingsPage;
 	
 	@BeforeTest
 	public void setUp(){
@@ -32,9 +32,9 @@ public class BaseTest {
 			
 	}
 	
-	@AfterTest
+	/*@AfterTest
 	public void teardown(){
 		driver.quit();
-	}
+	}*/
 
 }

@@ -22,7 +22,7 @@ public class ExcelUtils {
 		Object data[][] = null;// we don't know the exact count so initially it is 0
 		
 		try {
-			FileInputStream fs = new FileInputStream(ExcelUtils.TEST_DATA_SHEET_PATH);//// It is used to connect with the excel file
+			FileInputStream fs = new FileInputStream(ExcelUtils.TEST_DATA_SHEET_PATH);// It is used to connect with the excel file
 			
 			book = WorkbookFactory.create(fs);//To interact with file we use workbook factory class, we have reached to workbook
 			

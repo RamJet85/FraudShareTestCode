@@ -15,6 +15,7 @@ public class DashBoard {
 	
 	By TrendingChartHeader = By.xpath("//div[contains(text(),'Daily Incident Intensity')]");
 	By IncidentSubmission = By.xpath("//span[contains(text(),'INCIDENT SUBMISSION')]");
+	By Settings = By.xpath("//span[contains(text(),'SETTINGS')]");
 	By DataExport = By.xpath("//span[contains(text(),'DATA EXPORT')]");
 	By Search = By.xpath("//input[@id='txtFilter']");
 	By TextBox = By.xpath("//div[@class='input-group-text small-textBox']");
@@ -46,16 +47,15 @@ public class DashBoard {
 	
 	}
 	
-    public Submission clickOnSubmissionTab(){
-		
-		elementutils.waitForElementToBeClickable(IncidentSubmission, 10).click();
-		return new Submission(driver);
-	
-	}
-    
+        
     public DataExport clickOnDataExportTab(){
     	elementutils.waitForElementToBeClickable(DataExport, 10).click();
     	return new DataExport(driver);
+    }
+    
+    public SettingsPage clickOnSettingsTab(){
+    	elementutils.waitForElementToBeClickable(Settings, 10).click();
+    	return new SettingsPage(driver);
     }
     
     public String searchFunctionality(String data){
