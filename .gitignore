@@ -46,6 +46,7 @@ local.properties
 .loadpath
 .factorypath
 screenshots/
+test-output
 
 ##############################
 ## OS X
