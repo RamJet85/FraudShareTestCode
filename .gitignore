@@ -34,9 +34,11 @@ buildNumber.properties
 ##############################
 .settings/
 bin/
+test-output
 tmp/
 .metadata
 .classpath
+.gitignore
 .project
 *.tmp
 *.bak

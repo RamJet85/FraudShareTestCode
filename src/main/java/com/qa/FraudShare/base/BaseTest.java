@@ -3,7 +3,6 @@ package com.qa.FraudShare.base;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import com.qa.FraudShare.pages.DashBoard;
@@ -11,6 +10,7 @@ import com.qa.FraudShare.pages.DataExport;
 import com.qa.FraudShare.pages.IncidentSubmission;
 import com.qa.FraudShare.pages.LoginPage;
 import com.qa.FraudShare.pages.SettingsPage;
+import com.qa.FraudShare.pages.SubmissionPage;
 
 public class BaseTest {
 		
@@ -22,6 +22,7 @@ public class BaseTest {
 	public IncidentSubmission incidentSubmission;
 	public DataExport dataExport;
 	public SettingsPage settingsPage;
+	public SubmissionPage submissionPage;
 	
 	@BeforeTest
 	public void setUp(){

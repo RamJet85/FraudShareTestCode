@@ -62,7 +62,7 @@ public class IncidentSubmissionTest extends BaseTest{
 	}
 	
 	@Test(priority =6,dataProvider="getTestData")
-	public void createIncident(String PLI, String GORI, String DIS, String ACP, String ACM, String TR, String dateOI, String dateOD, String DTM,
+	public void verifyIncidentSubmissionFromExcel(String PLI, String GORI, String DIS, String ACP, String ACM, String TR, String dateOI, String dateOD, String DTM,
 			String Scheme, String TAV, String TAR, String Acc){
 		
 		incidentSubmission.incidentSubmissionFromExcel(PLI, GORI, DIS, ACP, ACM, TR, dateOI, dateOD, DTM, Scheme, TAV, TAR, Acc);

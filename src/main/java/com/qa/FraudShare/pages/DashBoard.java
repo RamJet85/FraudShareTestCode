@@ -47,6 +47,16 @@ public class DashBoard {
 	
 	}
 	
+	public SubmissionPage clickOnIncidentTab(){
+		
+		elementutils.waitForElementToBeClickable(IncidentSubmission, 10).click();
+		return new SubmissionPage(driver);
+	}
+	
+	
+	
+	
+	
         
     public DataExport clickOnDataExportTab(){
     	elementutils.waitForElementToBeClickable(DataExport, 10).click();

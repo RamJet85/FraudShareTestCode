@@ -17,7 +17,9 @@ public class ExcelUtils {
 	
 	public static Object[][] getTestData(String sheetName) {
 		
-		//Object data[][] = new Object[rows][columns];
+		// Object data[][] = new Object[rows][columns];
+         // Object data[][] = null; 
+		// data = new Object[3][2];
 		
 		Object data[][] = null;// we don't know the exact count so initially it is 0
 		
@@ -39,15 +41,15 @@ public class ExcelUtils {
 			//To get the data from excel we use Object 2D array
 			
 			data = new Object[totalRows][totalColumns]; //two dimensional object array look like a matrix 
-			//Here by object array we are converting the excel sheet into java object form
+			//Here by object array we are converting the excel sheet data into java object form
 			//To get the data we should iterate the excel data
 			
 			for(int i=0;i<totalRows;i++) {
 				
 				for(int j=0;j<totalColumns;j++) {
 					
-					
 					data[i][j] = sheet.getRow(i+1).getCell(j).toString();// storing the data
+					
 				}
 			}
 			

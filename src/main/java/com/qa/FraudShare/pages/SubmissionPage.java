@@ -4,13 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.qa.FraudShare.base.BasePage;
-import com.qa.FraudShare.utils.Constants;
 import com.qa.FraudShare.utils.ElementUtils;
 import com.qa.FraudShare.utils.JavaScriptUtils;
 
-public class IncidentSubmission extends BasePage {
+public class SubmissionPage extends BasePage {
 	
-	private WebDriver driver;
+private WebDriver driver;
 	
 	ElementUtils elementutils;
 	JavaScriptUtils jsUtil;
@@ -43,64 +42,13 @@ public class IncidentSubmission extends BasePage {
 	// Mandatory fields error messages
 	By IncidentsErrorsList = By.xpath("//div[@id='incidentTab']//p[@id]");
 	
-	public IncidentSubmission(WebDriver driver) {
+	public SubmissionPage(WebDriver driver) {
 		this.driver = driver;
 		elementutils = new ElementUtils(driver);
 		jsUtil = new JavaScriptUtils(driver);
 	}
 	
-	public String IncidentSubmissionPageTitle(){
-		return elementutils.waitForTitlePresent(Constants.INCIDENT_PAGE_TITLE, 10);
-	}
-
-	public String SingleIncidentSubmissionIsDisplayed() {
-
-		if (elementutils.isDisplayed(SingleIncidentSubmission)) {
-			return elementutils.getText(SingleIncidentSubmission);
-		}
-		return null;
-	}
-
-	public String BatchUploadIsDisplayed() {
-		if (elementutils.isDisplayed(BatchUpload)) {
-			return elementutils.getText(BatchUpload);
-		}
-		return null;
-	}
-	
-	public int getProductLineDropdownlist(){
-		return elementutils.getDropDownOptionsCountWithoutSelect(ProductLine);
-					
-	}
-		
-	public void submitSingleIncident(String PL, String GI, String Dis, String AP, String AM, String TT, String DIC, String DD,
-			String DM, String FS, String text, String AV,String AR, String Accessed){
-		
-		elementutils.selectValueFromDropDownWithoutSelect(ProductLine, PL);
-		elementutils.selectValueFromDropDownWithoutSelect(GroupORIndividual, GI);
-		elementutils.selectValueFromDropDownWithoutSelect(Disbursement, Dis);
-		elementutils.Single_Multi_AllSelectDropDown(AccessPoint, AP);
-		elementutils.Single_Multi_AllSelectDropDown(AccessMethod, AM);
-		elementutils.selectValueFromDropDownWithoutSelect(TransactionType, TT);
-		jsUtil.sendKeysByJs("DateOfInitialContact", DIC);
-		jsUtil.sendKeysByJs("DateOfDetection", DD);
-		elementutils.selectValueFromDropDownWithoutSelect(DetectionMethod, DM);
-		elementutils.selectValueFromDropDownWithoutSelect(FraudScheme, FS);
-		elementutils.doSendKeys(Additional, text);
-		elementutils.getElement(AccountValue).sendKeys(AV);
-		elementutils.getElement(AmountRequested).sendKeys(AR);
-		elementutils.selectRadioButtonFromList(AccountWasAccessed, "id", Accessed);
-		elementutils.doClick(SubmitBtn);
-	    elementutils.waitForElementPresent(incidentText, 10);
-	    String incidentTextPopUp = elementutils.getText(incidentText);
-	    System.out.println(incidentTextPopUp);
-	    elementutils.waitForElementPresent(Close, 10).click();
-		
-		
-		
-	}
-	
-	public void incidentSubmissionFromExcel(String PL, String GI, String Dis, String AP, String AM, String TT, String dOI, String dOD, String DM,
+	public void incidentSubmissionFromExcelSheet(String PL, String GI, String Dis, String AP, String AM, String TT, String dOI, String dOD, String DM,
 			String FS, String AV, String AR, String WasAcc){
 			
 		elementutils.selectValueFromDropDownWithoutSelect(ProductLine, PL);
@@ -118,7 +66,7 @@ public class IncidentSubmission extends BasePage {
 
         elementutils.selectRadioButtonFromList(AccountWasAccessed, "id", WasAcc);
 		elementutils.doClick(SubmitBtn);
-		elementutils.handleJavaScriptPopUp();
+		//elementutils.handleJavaScriptPopUp();
 		String incidentTextPopUp = elementutils.getText(incidentText);
 	    System.out.println(incidentTextPopUp);
 		
@@ -129,25 +77,5 @@ public class IncidentSubmission extends BasePage {
 		
 	}
 	
-	public void submitIncidentWithoutMandatoryValues(){
-		
-		elementutils.doTextBoxClear(dateOfInitial);
-		elementutils.handleJavaScriptPopUp();
-		elementutils.doTextBoxClear(dateOfDetection);
-		elementutils.handleJavaScriptPopUp();
-		elementutils.doClick(SubmitBtn);
-		elementutils.handleJavaScriptPopUp();
-		elementutils.getListOfErrorMessagesText(IncidentsErrorsList);
-		
-	}
-	
-	public void submitIncidentWithInvalidDates(){
-		
-		
-	}
-	
-		
-		
-	}
-	
 
+}
