@@ -12,7 +12,7 @@
 		</classes>
 		
 	</test> 
-	<test name="DashBoard Test">
+	<test name="DashBoard Tests">
 		<classes>
 			<class name ="com.qa.FraudShare.tests.DashBoardTest"/>
 		</classes>
