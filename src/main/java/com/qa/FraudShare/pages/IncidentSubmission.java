@@ -118,7 +118,7 @@ public class IncidentSubmission extends BasePage {
 
         elementutils.selectRadioButtonFromList(AccountWasAccessed, "id", WasAcc);
 		elementutils.doClick(SubmitBtn);
-		elementutils.handleJavaScriptPopUp();
+		//elementutils.handleJavaScriptPopUp();
 		String incidentTextPopUp = elementutils.getText(incidentText);
 	    System.out.println(incidentTextPopUp);
 		

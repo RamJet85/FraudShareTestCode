@@ -4,6 +4,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -91,16 +92,14 @@ public class DataExportTest {
 	}
 	
 	
+		
 	
 	
-	
-	
-	
-	/*@AfterTest
+	@AfterTest
 	public void teardown(){
 		driver.quit();
 	}
-*/
+
 	
 	
 	

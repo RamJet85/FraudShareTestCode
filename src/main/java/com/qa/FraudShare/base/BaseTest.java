@@ -3,6 +3,7 @@ package com.qa.FraudShare.base;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import com.qa.FraudShare.pages.DashBoard;
@@ -33,9 +34,9 @@ public class BaseTest {
 			
 	}
 	
-	/*@AfterTest
+	@AfterTest
 	public void teardown(){
 		driver.quit();
-	}*/
+	}
 
 }
