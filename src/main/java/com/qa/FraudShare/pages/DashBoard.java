@@ -14,9 +14,9 @@ public class DashBoard {
 	//By locators
 	
 	By TrendingChartHeader = By.xpath("//div[contains(text(),'Daily Incident Intensity')]");
-	By IncidentSubmission = By.xpath("//span[contains(text(),'INCIDENT SUBMISSION')]");
+	By IncidentSubmission = By.xpath("//span[contains(text(),'INCIDENTÂ SUBMISSION')]");
 	By Settings = By.xpath("//span[contains(text(),'SETTINGS')]");
-	By DataExport = By.xpath("//span[contains(text(),'DATA EXPORT')]");
+	By DataExport = By.xpath("//span[contains(text(),'DATAÂ EXPORT')]");
 	By Search = By.xpath("//input[@id='txtFilter']");
 	By TextBox = By.xpath("//div[@class='input-group-text small-textBox']");
 	By TI = By.xpath("//div[contains(text(),'# of Threat Indicators : 0')]");
