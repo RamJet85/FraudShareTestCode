@@ -2,112 +2,112 @@
 <testng-results skipped="0" failed="1" ignored="0" total="26" passed="25">
   <reporter-output>
   </reporter-output>
-  <suite name="FraudShare Testing Suite" duration-ms="93050" started-at="2020-09-27T08:40:24Z" finished-at="2020-09-27T08:41:57Z">
+  <suite name="FraudShare Testing Suite" duration-ms="119950" started-at="2020-09-28T05:33:59Z" finished-at="2020-09-28T05:35:59Z">
     <groups>
     </groups>
-    <test name="LoginPage Test" duration-ms="20929" started-at="2020-09-27T08:40:24Z" finished-at="2020-09-27T08:40:45Z">
+    <test name="LoginPage Test" duration-ms="45986" started-at="2020-09-28T05:33:59Z" finished-at="2020-09-28T05:34:45Z">
       <class name="com.qa.FraudShare.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.LoginPageTest@6e2c9341]" name="setUp" is-config="true" duration-ms="10486" started-at="2020-09-27T08:40:24Z" finished-at="2020-09-27T08:40:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.LoginPageTest@323e8306]" name="setUp" is-config="true" duration-ms="24721" started-at="2020-09-28T05:33:59Z" finished-at="2020-09-28T05:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyloginPageTitleTest()[pri:1, instance:com.qa.FraudShare.tests.LoginPageTest@6e2c9341]" name="verifyloginPageTitleTest" duration-ms="58" started-at="2020-09-27T08:40:35Z" finished-at="2020-09-27T08:40:35Z">
+        <test-method status="PASS" signature="verifyloginPageTitleTest()[pri:1, instance:com.qa.FraudShare.tests.LoginPageTest@323e8306]" name="verifyloginPageTitleTest" duration-ms="83" started-at="2020-09-28T05:34:24Z" finished-at="2020-09-28T05:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginPageTitleTest -->
-        <test-method status="PASS" signature="verifyfraudShareLogoTest()[pri:2, instance:com.qa.FraudShare.tests.LoginPageTest@6e2c9341]" name="verifyfraudShareLogoTest" duration-ms="578" started-at="2020-09-27T08:40:35Z" finished-at="2020-09-27T08:40:35Z">
+        <test-method status="PASS" signature="verifyfraudShareLogoTest()[pri:2, instance:com.qa.FraudShare.tests.LoginPageTest@323e8306]" name="verifyfraudShareLogoTest" duration-ms="597" started-at="2020-09-28T05:34:24Z" finished-at="2020-09-28T05:34:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyfraudShareLogoTest -->
-        <test-method status="PASS" signature="verifyLimraLogoTest()[pri:3, instance:com.qa.FraudShare.tests.LoginPageTest@6e2c9341]" name="verifyLimraLogoTest" duration-ms="564" started-at="2020-09-27T08:40:35Z" finished-at="2020-09-27T08:40:36Z">
+        <test-method status="PASS" signature="verifyLimraLogoTest()[pri:3, instance:com.qa.FraudShare.tests.LoginPageTest@323e8306]" name="verifyLimraLogoTest" duration-ms="625" started-at="2020-09-28T05:34:25Z" finished-at="2020-09-28T05:34:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLimraLogoTest -->
-        <test-method status="PASS" signature="verifyLomaLogoTest()[pri:4, instance:com.qa.FraudShare.tests.LoginPageTest@6e2c9341]" name="verifyLomaLogoTest" duration-ms="646" started-at="2020-09-27T08:40:36Z" finished-at="2020-09-27T08:40:37Z">
+        <test-method status="PASS" signature="verifyLomaLogoTest()[pri:4, instance:com.qa.FraudShare.tests.LoginPageTest@323e8306]" name="verifyLomaLogoTest" duration-ms="639" started-at="2020-09-28T05:34:25Z" finished-at="2020-09-28T05:34:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLomaLogoTest -->
-        <test-method status="PASS" signature="verifyLoginPageHeaderTest()[pri:5, instance:com.qa.FraudShare.tests.LoginPageTest@6e2c9341]" name="verifyLoginPageHeaderTest" duration-ms="1284" started-at="2020-09-27T08:40:37Z" finished-at="2020-09-27T08:40:38Z">
+        <test-method status="PASS" signature="verifyLoginPageHeaderTest()[pri:5, instance:com.qa.FraudShare.tests.LoginPageTest@323e8306]" name="verifyLoginPageHeaderTest" duration-ms="1376" started-at="2020-09-28T05:34:26Z" finished-at="2020-09-28T05:34:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageHeaderTest -->
-        <test-method status="PASS" signature="forgotUsernameLinkIsDisplayed()[pri:6, instance:com.qa.FraudShare.tests.LoginPageTest@6e2c9341]" name="forgotUsernameLinkIsDisplayed" duration-ms="1151" started-at="2020-09-27T08:40:38Z" finished-at="2020-09-27T08:40:39Z">
+        <test-method status="PASS" signature="forgotUsernameLinkIsDisplayed()[pri:6, instance:com.qa.FraudShare.tests.LoginPageTest@323e8306]" name="forgotUsernameLinkIsDisplayed" duration-ms="1229" started-at="2020-09-28T05:34:27Z" finished-at="2020-09-28T05:34:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotUsernameLinkIsDisplayed -->
-        <test-method status="PASS" signature="forgotPasswordLinkIsDisplayed()[pri:7, instance:com.qa.FraudShare.tests.LoginPageTest@6e2c9341]" name="forgotPasswordLinkIsDisplayed" duration-ms="1293" started-at="2020-09-27T08:40:39Z" finished-at="2020-09-27T08:40:40Z">
+        <test-method status="PASS" signature="forgotPasswordLinkIsDisplayed()[pri:7, instance:com.qa.FraudShare.tests.LoginPageTest@323e8306]" name="forgotPasswordLinkIsDisplayed" duration-ms="1325" started-at="2020-09-28T05:34:29Z" finished-at="2020-09-28T05:34:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPasswordLinkIsDisplayed -->
-        <test-method status="PASS" signature="verifyLogintest()[pri:8, instance:com.qa.FraudShare.tests.LoginPageTest@6e2c9341]" name="verifyLogintest" duration-ms="4228" started-at="2020-09-27T08:40:40Z" finished-at="2020-09-27T08:40:45Z">
+        <test-method status="PASS" signature="verifyLogintest()[pri:8, instance:com.qa.FraudShare.tests.LoginPageTest@323e8306]" name="verifyLogintest" duration-ms="14609" started-at="2020-09-28T05:34:30Z" finished-at="2020-09-28T05:34:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogintest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.LoginPageTest@6e2c9341]" name="teardown" is-config="true" duration-ms="615" started-at="2020-09-27T08:40:45Z" finished-at="2020-09-27T08:40:45Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.LoginPageTest@323e8306]" name="teardown" is-config="true" duration-ms="616" started-at="2020-09-28T05:34:45Z" finished-at="2020-09-28T05:34:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.FraudShare.tests.LoginPageTest -->
     </test> <!-- LoginPage Test -->
-    <test name="DashBoard Test" duration-ms="16707" started-at="2020-09-27T08:40:45Z" finished-at="2020-09-27T08:41:02Z">
+    <test name="DashBoard Test" duration-ms="17976" started-at="2020-09-28T05:34:45Z" finished-at="2020-09-28T05:35:03Z">
       <class name="com.qa.FraudShare.tests.DashBoardTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@120d6fe6]" name="setUp" is-config="true" duration-ms="9863" started-at="2020-09-27T08:40:45Z" finished-at="2020-09-27T08:40:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@65ef722a]" name="setUp" is-config="true" duration-ms="10199" started-at="2020-09-28T05:34:45Z" finished-at="2020-09-28T05:34:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="DashBoardSetup()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@120d6fe6]" name="DashBoardSetup" is-config="true" duration-ms="2949" started-at="2020-09-27T08:40:55Z" finished-at="2020-09-27T08:40:58Z">
+        <test-method status="PASS" signature="DashBoardSetup()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@65ef722a]" name="DashBoardSetup" is-config="true" duration-ms="4237" started-at="2020-09-28T05:34:55Z" finished-at="2020-09-28T05:35:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashBoardSetup -->
-        <test-method status="PASS" signature="verifyDashBoardTitleTest()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@120d6fe6]" name="verifyDashBoardTitleTest" duration-ms="273" started-at="2020-09-27T08:40:58Z" finished-at="2020-09-27T08:40:58Z">
+        <test-method status="PASS" signature="verifyDashBoardTitleTest()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@65ef722a]" name="verifyDashBoardTitleTest" duration-ms="11" started-at="2020-09-28T05:35:00Z" finished-at="2020-09-28T05:35:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashBoardTitleTest -->
-        <test-method status="PASS" signature="verifyTrendingChartsHeaderTest()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@120d6fe6]" name="verifyTrendingChartsHeaderTest" duration-ms="1464" started-at="2020-09-27T08:40:58Z" finished-at="2020-09-27T08:41:00Z">
+        <test-method status="PASS" signature="verifyTrendingChartsHeaderTest()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@65ef722a]" name="verifyTrendingChartsHeaderTest" duration-ms="1169" started-at="2020-09-28T05:35:00Z" finished-at="2020-09-28T05:35:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTrendingChartsHeaderTest -->
-        <test-method status="PASS" signature="verifyWSearchFunctionality()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@120d6fe6]" name="verifyWSearchFunctionality" duration-ms="1529" started-at="2020-09-27T08:41:00Z" finished-at="2020-09-27T08:41:01Z">
+        <test-method status="PASS" signature="verifyWSearchFunctionality()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@65ef722a]" name="verifyWSearchFunctionality" duration-ms="1724" started-at="2020-09-28T05:35:01Z" finished-at="2020-09-28T05:35:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWSearchFunctionality -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@120d6fe6]" name="teardown" is-config="true" duration-ms="626" started-at="2020-09-27T08:41:01Z" finished-at="2020-09-27T08:41:02Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@65ef722a]" name="teardown" is-config="true" duration-ms="625" started-at="2020-09-28T05:35:03Z" finished-at="2020-09-28T05:35:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.FraudShare.tests.DashBoardTest -->
     </test> <!-- DashBoard Test -->
-    <test name="IncidentSubmission Test" duration-ms="32162" started-at="2020-09-27T08:41:02Z" finished-at="2020-09-27T08:41:34Z">
+    <test name="IncidentSubmission Test" duration-ms="33287" started-at="2020-09-28T05:35:03Z" finished-at="2020-09-28T05:35:37Z">
       <class name="com.qa.FraudShare.tests.IncidentSubmissionTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@1445d7f]" name="setUp" is-config="true" duration-ms="9909" started-at="2020-09-27T08:41:02Z" finished-at="2020-09-27T08:41:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@51bde877]" name="setUp" is-config="true" duration-ms="9987" started-at="2020-09-28T05:35:03Z" finished-at="2020-09-28T05:35:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IncidentSubmissionPageSetUp()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@1445d7f]" name="IncidentSubmissionPageSetUp" is-config="true" duration-ms="4515" started-at="2020-09-27T08:41:12Z" finished-at="2020-09-27T08:41:17Z">
+        <test-method status="PASS" signature="IncidentSubmissionPageSetUp()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@51bde877]" name="IncidentSubmissionPageSetUp" is-config="true" duration-ms="4506" started-at="2020-09-28T05:35:13Z" finished-at="2020-09-28T05:35:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IncidentSubmissionPageSetUp -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionPageTilte()[pri:1, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@1445d7f]" name="verifyIncidentSubmissionPageTilte" duration-ms="45" started-at="2020-09-27T08:41:17Z" finished-at="2020-09-27T08:41:17Z">
+        <test-method status="PASS" signature="verifyIncidentSubmissionPageTilte()[pri:1, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@51bde877]" name="verifyIncidentSubmissionPageTilte" duration-ms="23" started-at="2020-09-28T05:35:18Z" finished-at="2020-09-28T05:35:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncidentSubmissionPageTilte -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionValueTest()[pri:2, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@1445d7f]" name="verifyIncidentSubmissionValueTest" duration-ms="1150" started-at="2020-09-27T08:41:17Z" finished-at="2020-09-27T08:41:18Z">
+        <test-method status="PASS" signature="verifyIncidentSubmissionValueTest()[pri:2, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@51bde877]" name="verifyIncidentSubmissionValueTest" duration-ms="1170" started-at="2020-09-28T05:35:18Z" finished-at="2020-09-28T05:35:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncidentSubmissionValueTest -->
-        <test-method status="PASS" signature="verifyBatchUploadValueTest()[pri:3, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@1445d7f]" name="verifyBatchUploadValueTest" duration-ms="1130" started-at="2020-09-27T08:41:18Z" finished-at="2020-09-27T08:41:19Z">
+        <test-method status="PASS" signature="verifyBatchUploadValueTest()[pri:3, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@51bde877]" name="verifyBatchUploadValueTest" duration-ms="1231" started-at="2020-09-28T05:35:19Z" finished-at="2020-09-28T05:35:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBatchUploadValueTest -->
-        <test-method status="PASS" signature="verifyProductLineTest()[pri:4, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@1445d7f]" name="verifyProductLineTest" duration-ms="15" started-at="2020-09-27T08:41:19Z" finished-at="2020-09-27T08:41:19Z">
+        <test-method status="PASS" signature="verifyProductLineTest()[pri:4, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@51bde877]" name="verifyProductLineTest" duration-ms="27" started-at="2020-09-28T05:35:20Z" finished-at="2020-09-28T05:35:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductLineTest -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionTest()[pri:5, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@1445d7f]" name="verifyIncidentSubmissionTest" duration-ms="5098" started-at="2020-09-27T08:41:19Z" finished-at="2020-09-27T08:41:24Z">
+        <test-method status="PASS" signature="verifyIncidentSubmissionTest()[pri:5, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@51bde877]" name="verifyIncidentSubmissionTest" duration-ms="4887" started-at="2020-09-28T05:35:20Z" finished-at="2020-09-28T05:35:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncidentSubmissionTest -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@1445d7f]" name="verifyIncidentSubmissionFromExcel" duration-ms="3470" started-at="2020-09-27T08:41:24Z" data-provider="getTestData" finished-at="2020-09-27T08:41:28Z">
+        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@51bde877]" name="verifyIncidentSubmissionFromExcel" duration-ms="3823" started-at="2020-09-28T05:35:26Z" data-provider="getTestData" finished-at="2020-09-28T05:35:30Z">
           <params>
             <param index="0">
               <value>
@@ -178,7 +178,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncidentSubmissionFromExcel -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@1445d7f]" name="verifyIncidentSubmissionFromExcel" duration-ms="3698" started-at="2020-09-27T08:41:28Z" data-provider="getTestData" finished-at="2020-09-27T08:41:32Z">
+        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@51bde877]" name="verifyIncidentSubmissionFromExcel" duration-ms="3966" started-at="2020-09-28T05:35:30Z" data-provider="getTestData" finished-at="2020-09-28T05:35:34Z">
           <params>
             <param index="0">
               <value>
@@ -249,43 +249,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncidentSubmissionFromExcel -->
-        <test-method status="PASS" signature="verifySubmitIncidentwithoutMandatoryValuesTest()[pri:7, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@1445d7f]" name="verifySubmitIncidentwithoutMandatoryValuesTest" duration-ms="2096" started-at="2020-09-27T08:41:32Z" finished-at="2020-09-27T08:41:34Z">
+        <test-method status="PASS" signature="verifySubmitIncidentwithoutMandatoryValuesTest()[pri:7, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@51bde877]" name="verifySubmitIncidentwithoutMandatoryValuesTest" duration-ms="2070" started-at="2020-09-28T05:35:34Z" finished-at="2020-09-28T05:35:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubmitIncidentwithoutMandatoryValuesTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@1445d7f]" name="teardown" is-config="true" duration-ms="620" started-at="2020-09-27T08:41:34Z" finished-at="2020-09-27T08:41:34Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@51bde877]" name="teardown" is-config="true" duration-ms="612" started-at="2020-09-28T05:35:36Z" finished-at="2020-09-28T05:35:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.FraudShare.tests.IncidentSubmissionTest -->
     </test> <!-- IncidentSubmission Test -->
-    <test name="DataExport Test" duration-ms="22951" started-at="2020-09-27T08:41:34Z" finished-at="2020-09-27T08:41:57Z">
+    <test name="DataExport Test" duration-ms="22627" started-at="2020-09-28T05:35:37Z" finished-at="2020-09-28T05:35:59Z">
       <class name="com.qa.FraudShare.tests.DataExportTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@453da22c]" name="setup" is-config="true" duration-ms="9932" started-at="2020-09-27T08:41:34Z" finished-at="2020-09-27T08:41:44Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@1c65121]" name="setup" is-config="true" duration-ms="10040" started-at="2020-09-28T05:35:37Z" finished-at="2020-09-28T05:35:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@453da22c]" name="login" is-config="true" duration-ms="6704" started-at="2020-09-27T08:41:44Z" finished-at="2020-09-27T08:41:51Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@1c65121]" name="login" is-config="true" duration-ms="4733" started-at="2020-09-28T05:35:47Z" finished-at="2020-09-28T05:35:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="verifyDataExportTitleTest()[pri:1, instance:com.qa.FraudShare.tests.DataExportTest@453da22c]" name="verifyDataExportTitleTest" duration-ms="9" started-at="2020-09-27T08:41:51Z" finished-at="2020-09-27T08:41:51Z">
+        <test-method status="PASS" signature="verifyDataExportTitleTest()[pri:1, instance:com.qa.FraudShare.tests.DataExportTest@1c65121]" name="verifyDataExportTitleTest" duration-ms="8" started-at="2020-09-28T05:35:51Z" finished-at="2020-09-28T05:35:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDataExportTitleTest -->
-        <test-method status="PASS" signature="verifyHeaderTest()[pri:2, instance:com.qa.FraudShare.tests.DataExportTest@453da22c]" name="verifyHeaderTest" duration-ms="1181" started-at="2020-09-27T08:41:51Z" finished-at="2020-09-27T08:41:52Z">
+        <test-method status="PASS" signature="verifyHeaderTest()[pri:2, instance:com.qa.FraudShare.tests.DataExportTest@1c65121]" name="verifyHeaderTest" duration-ms="1085" started-at="2020-09-28T05:35:51Z" finished-at="2020-09-28T05:35:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHeaderTest -->
-        <test-method status="PASS" signature="verifyEIDTest()[pri:3, instance:com.qa.FraudShare.tests.DataExportTest@453da22c]" name="verifyEIDTest" duration-ms="1246" started-at="2020-09-27T08:41:52Z" finished-at="2020-09-27T08:41:53Z">
+        <test-method status="PASS" signature="verifyEIDTest()[pri:3, instance:com.qa.FraudShare.tests.DataExportTest@1c65121]" name="verifyEIDTest" duration-ms="1190" started-at="2020-09-28T05:35:52Z" finished-at="2020-09-28T05:35:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEIDTest -->
-        <test-method status="PASS" signature="verifyETITest()[pri:4, instance:com.qa.FraudShare.tests.DataExportTest@453da22c]" name="verifyETITest" duration-ms="1176" started-at="2020-09-27T08:41:53Z" finished-at="2020-09-27T08:41:55Z">
+        <test-method status="PASS" signature="verifyETITest()[pri:4, instance:com.qa.FraudShare.tests.DataExportTest@1c65121]" name="verifyETITest" duration-ms="1261" started-at="2020-09-28T05:35:54Z" finished-at="2020-09-28T05:35:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyETITest -->
-        <test-method status="PASS" signature="verifyEIDdownload(java.lang.String, java.lang.String)[pri:5, instance:com.qa.FraudShare.tests.DataExportTest@453da22c]" name="verifyEIDdownload" duration-ms="906" started-at="2020-09-27T08:41:55Z" data-provider="getExportIncidentsData" finished-at="2020-09-27T08:41:56Z">
+        <test-method status="PASS" signature="verifyEIDdownload(java.lang.String, java.lang.String)[pri:5, instance:com.qa.FraudShare.tests.DataExportTest@1c65121]" name="verifyEIDdownload" duration-ms="1358" started-at="2020-09-28T05:35:55Z" data-provider="getExportIncidentsData" finished-at="2020-09-28T05:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -301,7 +301,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEIDdownload -->
-        <test-method status="PASS" signature="verifyEIDdownload(java.lang.String, java.lang.String)[pri:5, instance:com.qa.FraudShare.tests.DataExportTest@453da22c]" name="verifyEIDdownload" duration-ms="793" started-at="2020-09-27T08:41:56Z" data-provider="getExportIncidentsData" finished-at="2020-09-27T08:41:56Z">
+        <test-method status="PASS" signature="verifyEIDdownload(java.lang.String, java.lang.String)[pri:5, instance:com.qa.FraudShare.tests.DataExportTest@1c65121]" name="verifyEIDdownload" duration-ms="1879" started-at="2020-09-28T05:35:56Z" data-provider="getExportIncidentsData" finished-at="2020-09-28T05:35:58Z">
           <params>
             <param index="0">
               <value>
@@ -317,7 +317,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEIDdownload -->
-        <test-method status="FAIL" signature="verifyEIDwithInvalid()[pri:6, instance:com.qa.FraudShare.tests.DataExportTest@453da22c]" name="verifyEIDwithInvalid" duration-ms="15" started-at="2020-09-27T08:41:56Z" finished-at="2020-09-27T08:41:56Z">
+        <test-method status="FAIL" signature="verifyEIDwithInvalid()[pri:6, instance:com.qa.FraudShare.tests.DataExportTest@1c65121]" name="verifyEIDwithInvalid" duration-ms="18" started-at="2020-09-28T05:35:58Z" finished-at="2020-09-28T05:35:58Z">
           <exception class="org.openqa.selenium.JavascriptException">
             <message>
               <![CDATA[javascript error: Cannot set property 'value' of null
@@ -325,8 +325,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'CTD1010', ip: '172.23.6.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\rperabat\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 66f5275eddaaa053bcd2597f3daac204]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\rperabat\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63611}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7e7d38905aa259be3e644a27593ea0dc]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.JavascriptException: javascript error: Cannot set property 'value' of null
@@ -334,8 +334,8 @@ Session ID: 66f5275eddaaa053bcd2597f3daac204]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'CTD1010', ip: '172.23.6.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\rperabat\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 66f5275eddaaa053bcd2597f3daac204
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\rperabat\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63611}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7e7d38905aa259be3e644a27593ea0dc
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -381,7 +381,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEIDwithInvalid -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@453da22c]" name="teardown" is-config="true" duration-ms="615" started-at="2020-09-27T08:41:57Z" finished-at="2020-09-27T08:41:57Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@1c65121]" name="teardown" is-config="true" duration-ms="618" started-at="2020-09-28T05:35:59Z" finished-at="2020-09-28T05:35:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -3,7 +3,9 @@
 <suite name="FraudShare Testing Suite">
 
 <listeners>
+
 	<listener class-name="com.qa.FraudShare.listeners.ExtentReportListener" />
+	<!-- <listener class-name="com.qa.FraudShare.listeners.AllureReportListener" /> -->
 </listeners>
 
 	<test name="LoginPage Test">

@@ -85,14 +85,13 @@ public class DataExportTest {
 	}
 	
 	@Test(priority=6)
-	public void verifyEIDwithInvalid(){
+	public void verifyEIDwithInvalid() throws InterruptedException{
 		String text = dataExport.downloadEIDReportwithInvalidDates("12/654656", "12/657536");
+		System.out.println(text);
 		Assert.assertEquals(text, "An error occurred while processing your request. Please Contact Support");
 		
 	}
 	
-	
-		
 	
 	
 	@AfterTest
