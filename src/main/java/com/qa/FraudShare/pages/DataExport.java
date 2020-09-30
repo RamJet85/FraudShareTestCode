@@ -8,7 +8,7 @@ import com.qa.FraudShare.utils.JavaScriptUtils;
 
 public class DataExport {
 	
-	//private WebDriver driver;
+	private WebDriver driver;
 	ElementUtils elementutils;
 	JavaScriptUtils jsUtil;
 	
@@ -21,12 +21,14 @@ public class DataExport {
 	By EFIDownload = By.xpath("//input[@id='btndownloadData']");
 	By ETIFromDate = By.id("txtFromDateThreatData");
 	By ETIEndDate = By.id("txtToDateThreatData");
-	By ETIDownload = By.xpath("btndownloadThreatData");
-	By SlectAllETI = By.xpath("//select[@id='threatIndicators']/option");
 	By error = By.xpath("//*[contains(text(),'An error occurred while processing your request. Please Contact Support')]");
+	By threatIndicatorAll = By.xpath("//select[@id='threatIndicators']/option");
+	By exportAll = By.xpath("//label[contains(text(),'Export All')]/..//preceding-sibling::td/input[@id='ExportAll']");
+	By eTIDownload = By.xpath("//input[@id='btndownloadThreatData']");
+	
 	
 	public DataExport(WebDriver driver){
-		//this.driver = driver;
+		this.driver = driver;
 		elementutils = new ElementUtils(driver);
 		jsUtil = new JavaScriptUtils(driver);
 		
@@ -65,9 +67,12 @@ public class DataExport {
 		
 		jsUtil.sendKeysByJs("txtFromDateData", FromDate);
 		jsUtil.sendKeysByJs("txtToDateData", EndDate);
-		elementutils.doClick(EFIDownload);
+		elementutils.doClick(EFIDownload);	
 		
 		
+	}
+	public void back(){
+		driver.navigate().back();
 	}
 	
 	public String downloadEIDReportwithInvalidDates(String FromDate, String EndDate){
@@ -78,6 +83,16 @@ public class DataExport {
 			return elementutils.getText(error);
 		}
 		return null;
+	}
+	
+	public void downloadExportThreatIndicatorsWithValidDates(String froamDate, String endDate, String tI){
+		
+		jsUtil.sendKeysByJs("txtFromDateThreatData", froamDate);
+		jsUtil.sendKeysByJs("txtToDateThreatData", endDate);
+		elementutils.Single_Multi_AllSelectDropDown(threatIndicatorAll, tI);
+		//elementutils.doActionClick(eTIDownload);
+			
+		
 	}
 			
 

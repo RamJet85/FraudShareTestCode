@@ -22,7 +22,7 @@ public class SubmissionPageTest extends BaseTest{
 		return ExcelUtils.getTestData("IncidentSubmission");
 	}
 	
-	@Test(priority =6,dataProvider="getTestData")
+	@Test(dataProvider="getTestData")
 	public void verifyIncidentSubmissionFromExcel(String PLI, String GORI, String DIS, String ACP, String ACM, String TR, String dateOI, String dateOD, String DTM,
 			String Scheme, String TAV, String TAR, String Acc){
 		

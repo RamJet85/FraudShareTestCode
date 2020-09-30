@@ -85,19 +85,33 @@ public class DataExportTest {
 	}
 	
 	@Test(priority=6)
-	public void verifyEIDwithInvalid() throws InterruptedException{
-		String text = dataExport.downloadEIDReportwithInvalidDates("12/654656", "12/657536");
+	public void backTest(){
+		dataExport.back();
+	}
+	
+	@Test(priority=7)
+	public void verifyEIDwithInvalid() {
+		String text = dataExport.downloadEIDReportwithInvalidDates("12/65/2024", "12/65/2039");
 		System.out.println(text);
 		Assert.assertEquals(text, "An error occurred while processing your request. Please Contact Support");
 		
 	}
 	
+	@DataProvider
+	public Object[][] getTiData(){
+	    return ExcelUtils.getTestData("ExportThreat");
+		
+	}
+	@Test(dataProvider="getTiData")
+	public void verifyExportTiTest(String fd, String ed, String threats){
+		dataExport.downloadExportThreatIndicatorsWithValidDates( fd,  ed,  threats);
+	}
 	
 	
-	@AfterTest
+	/*@AfterTest
 	public void teardown(){
 		driver.quit();
-	}
+	}*/
 
 	
 	
