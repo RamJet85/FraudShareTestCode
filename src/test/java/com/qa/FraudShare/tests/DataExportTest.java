@@ -108,10 +108,10 @@ public class DataExportTest {
 	}
 	
 	
-	/*@AfterTest
+	@AfterTest
 	public void teardown(){
 		driver.quit();
-	}*/
+	}
 
 	
 	

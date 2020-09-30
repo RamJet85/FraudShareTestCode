@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="7" total="8" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16641" started-at="2020-09-28T12:59:23Z" finished-at="2020-09-28T12:59:40Z">
+  <suite name="Default suite" duration-ms="23683" started-at="2020-09-30T12:19:45Z" finished-at="2020-09-30T12:20:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16641" started-at="2020-09-28T12:59:23Z" finished-at="2020-09-28T12:59:40Z">
+    <test name="Default test" duration-ms="23683" started-at="2020-09-30T12:19:45Z" finished-at="2020-09-30T12:20:09Z">
       <class name="com.qa.FraudShare.tests.DataExportTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@7e809b79]" name="setup" is-config="true" duration-ms="11048" started-at="2020-09-28T12:59:23Z" finished-at="2020-09-28T12:59:34Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@3d08f3f5]" name="setup" is-config="true" duration-ms="11170" started-at="2020-09-30T12:19:45Z" finished-at="2020-09-30T12:19:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@7e809b79]" name="login" is-config="true" duration-ms="4580" started-at="2020-09-28T12:59:34Z" finished-at="2020-09-28T12:59:39Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@3d08f3f5]" name="login" is-config="true" duration-ms="4232" started-at="2020-09-30T12:19:56Z" finished-at="2020-09-30T12:20:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="verifyExportTiTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@7e809b79]" name="verifyExportTiTest" duration-ms="149" started-at="2020-09-28T12:59:40Z" data-provider="getTiData" finished-at="2020-09-28T12:59:40Z">
+        <test-method status="PASS" signature="verifyExportTiTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@3d08f3f5]" name="verifyExportTiTest" duration-ms="155" started-at="2020-09-30T12:20:01Z" data-provider="getTiData" finished-at="2020-09-30T12:20:01Z">
           <params>
             <param index="0">
               <value>
@@ -36,6 +36,62 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyExportTiTest -->
+        <test-method status="PASS" signature="verifyDataExportTitleTest()[pri:1, instance:com.qa.FraudShare.tests.DataExportTest@3d08f3f5]" name="verifyDataExportTitleTest" duration-ms="11" started-at="2020-09-30T12:20:01Z" finished-at="2020-09-30T12:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataExportTitleTest -->
+        <test-method status="PASS" signature="verifyHeaderTest()[pri:2, instance:com.qa.FraudShare.tests.DataExportTest@3d08f3f5]" name="verifyHeaderTest" duration-ms="1173" started-at="2020-09-30T12:20:01Z" finished-at="2020-09-30T12:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderTest -->
+        <test-method status="PASS" signature="verifyEIDTest()[pri:3, instance:com.qa.FraudShare.tests.DataExportTest@3d08f3f5]" name="verifyEIDTest" duration-ms="1308" started-at="2020-09-30T12:20:03Z" finished-at="2020-09-30T12:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEIDTest -->
+        <test-method status="PASS" signature="verifyETITest()[pri:4, instance:com.qa.FraudShare.tests.DataExportTest@3d08f3f5]" name="verifyETITest" duration-ms="1292" started-at="2020-09-30T12:20:04Z" finished-at="2020-09-30T12:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyETITest -->
+        <test-method status="PASS" signature="verifyEIDdownload(java.lang.String, java.lang.String)[pri:5, instance:com.qa.FraudShare.tests.DataExportTest@3d08f3f5]" name="verifyEIDdownload" duration-ms="877" started-at="2020-09-30T12:20:05Z" data-provider="getExportIncidentsData" finished-at="2020-09-30T12:20:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12-Sep-2013]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12-Sep-2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEIDdownload -->
+        <test-method status="PASS" signature="verifyEIDdownload(java.lang.String, java.lang.String)[pri:5, instance:com.qa.FraudShare.tests.DataExportTest@3d08f3f5]" name="verifyEIDdownload" duration-ms="862" started-at="2020-09-30T12:20:06Z" data-provider="getExportIncidentsData" finished-at="2020-09-30T12:20:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10/19/218]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10/12/220]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEIDdownload -->
+        <test-method status="PASS" signature="backTest()[pri:6, instance:com.qa.FraudShare.tests.DataExportTest@3d08f3f5]" name="backTest" duration-ms="61" started-at="2020-09-30T12:20:07Z" finished-at="2020-09-30T12:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backTest -->
+        <test-method status="PASS" signature="verifyEIDwithInvalid()[pri:7, instance:com.qa.FraudShare.tests.DataExportTest@3d08f3f5]" name="verifyEIDwithInvalid" duration-ms="1573" started-at="2020-09-30T12:20:07Z" finished-at="2020-09-30T12:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEIDwithInvalid -->
       </class> <!-- com.qa.FraudShare.tests.DataExportTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
