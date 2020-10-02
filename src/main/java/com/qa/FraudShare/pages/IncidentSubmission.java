@@ -95,9 +95,7 @@ public class IncidentSubmission extends BasePage {
 	    String incidentTextPopUp = elementutils.getText(incidentText);
 	    System.out.println(incidentTextPopUp);
 	    elementutils.waitForElementPresent(Close, 10).click();
-		
-		
-		
+				
 	}
 	
 	public void incidentSubmissionFromExcel(String PL, String GI, String Dis, String AP, String AM, String TT, String dOI, String dOD, String DM,
