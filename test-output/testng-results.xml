@@ -1,234 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28048" started-at="2020-10-02T11:39:03Z" finished-at="2020-10-02T11:39:31Z">
+  <suite name="Default suite" duration-ms="25532" started-at="2020-10-12T16:07:53Z" finished-at="2020-10-12T16:08:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28048" started-at="2020-10-02T11:39:03Z" finished-at="2020-10-02T11:39:31Z">
-      <class name="com.qa.FraudShare.tests.IncidentSubmissionTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@5f2f577]" name="setUp" is-config="true" duration-ms="11120" started-at="2020-10-02T11:39:03Z" finished-at="2020-10-02T11:39:14Z">
+    <test name="Default test" duration-ms="25532" started-at="2020-10-12T16:07:53Z" finished-at="2020-10-12T16:08:19Z">
+      <class name="com.qa.FraudShare.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.LoginPageTest@1536602f]" name="setUp" is-config="true" duration-ms="11984" started-at="2020-10-12T16:07:53Z" finished-at="2020-10-12T16:08:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IncidentSubmissionPageSetUp()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@5f2f577]" name="IncidentSubmissionPageSetUp" is-config="true" duration-ms="4574" started-at="2020-10-02T11:39:14Z" finished-at="2020-10-02T11:39:18Z">
+        <test-method status="PASS" signature="verifyloginPageTitleTest()[pri:1, instance:com.qa.FraudShare.tests.LoginPageTest@1536602f]" name="verifyloginPageTitleTest" duration-ms="77" started-at="2020-10-12T16:08:05Z" finished-at="2020-10-12T16:08:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- IncidentSubmissionPageSetUp -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@5f2f577]" name="verifyIncidentSubmissionFromExcel" duration-ms="3950" started-at="2020-10-02T11:39:19Z" data-provider="getTestData" finished-at="2020-10-02T11:39:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Investment]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Group]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Wire]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[all]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Fax]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Address Change]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[03/12/2018]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[12/12/2019]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Advisor]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Phishing]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[200.0]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[400.0]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[WasAccountAccessedYes]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verifyloginPageTitleTest -->
+        <test-method status="PASS" signature="verifyfraudShareLogoTest()[pri:2, instance:com.qa.FraudShare.tests.LoginPageTest@1536602f]" name="verifyfraudShareLogoTest" duration-ms="593" started-at="2020-10-12T16:08:05Z" finished-at="2020-10-12T16:08:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyIncidentSubmissionFromExcel -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@5f2f577]" name="verifyIncidentSubmissionFromExcel" duration-ms="3704" started-at="2020-10-02T11:39:23Z" data-provider="getTestData" finished-at="2020-10-02T11:39:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mutual Fund]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Individual]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Check]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Advisor]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Phone]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[PIN Change]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[07/12/2019]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[01/02/2020]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[FraudShare]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Mail Drop]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[150.0]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[244.0]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[WasAccountAccessedNo]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verifyfraudShareLogoTest -->
+        <test-method status="PASS" signature="verifyLimraLogoTest()[pri:3, instance:com.qa.FraudShare.tests.LoginPageTest@1536602f]" name="verifyLimraLogoTest" duration-ms="555" started-at="2020-10-12T16:08:06Z" finished-at="2020-10-12T16:08:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyIncidentSubmissionFromExcel -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@5f2f577]" name="verifyIncidentSubmissionFromExcel" duration-ms="3803" started-at="2020-10-02T11:39:27Z" data-provider="getTestData" finished-at="2020-10-02T11:39:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mutual Fund]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Individual]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Check]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Advisor]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Phone]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[PIN Change]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[07/22/2019]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[06/02/2020]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[FraudShare]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Mail Drop]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[150.0]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[244.0]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[WasAccountAccessedNo]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verifyLimraLogoTest -->
+        <test-method status="PASS" signature="verifyLomaLogoTest()[pri:4, instance:com.qa.FraudShare.tests.LoginPageTest@1536602f]" name="verifyLomaLogoTest" duration-ms="565" started-at="2020-10-12T16:08:06Z" finished-at="2020-10-12T16:08:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyIncidentSubmissionFromExcel -->
-      </class> <!-- com.qa.FraudShare.tests.IncidentSubmissionTest -->
+        </test-method> <!-- verifyLomaLogoTest -->
+        <test-method status="PASS" signature="verifyLoginPageHeaderTest()[pri:5, instance:com.qa.FraudShare.tests.LoginPageTest@1536602f]" name="verifyLoginPageHeaderTest" duration-ms="1220" started-at="2020-10-12T16:08:07Z" finished-at="2020-10-12T16:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeaderTest -->
+        <test-method status="PASS" signature="forgotUsernameLinkIsDisplayed()[pri:6, instance:com.qa.FraudShare.tests.LoginPageTest@1536602f]" name="forgotUsernameLinkIsDisplayed" duration-ms="1295" started-at="2020-10-12T16:08:08Z" finished-at="2020-10-12T16:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotUsernameLinkIsDisplayed -->
+        <test-method status="PASS" signature="forgotPasswordLinkIsDisplayed()[pri:7, instance:com.qa.FraudShare.tests.LoginPageTest@1536602f]" name="forgotPasswordLinkIsDisplayed" duration-ms="1297" started-at="2020-10-12T16:08:10Z" finished-at="2020-10-12T16:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordLinkIsDisplayed -->
+        <test-method status="PASS" signature="verifyLogintest()[pri:8, instance:com.qa.FraudShare.tests.LoginPageTest@1536602f]" name="verifyLogintest" duration-ms="7138" started-at="2020-10-12T16:08:11Z" finished-at="2020-10-12T16:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogintest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.LoginPageTest@1536602f]" name="teardown" is-config="true" duration-ms="637" started-at="2020-10-12T16:08:18Z" finished-at="2020-10-12T16:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.FraudShare.tests.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

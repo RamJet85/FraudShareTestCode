@@ -25,6 +25,8 @@ public class DataExport {
 	By threatIndicatorAll = By.xpath("//select[@id='threatIndicators']/option");
 	By exportAll = By.xpath("//label[contains(text(),'Export All')]/..//preceding-sibling::td/input[@id='ExportAll']");
 	By eTIDownload = By.xpath("//input[@id='btndownloadThreatData']");
+	By addressToolTip = By.xpath("//a[@class='expMAIndicatorTooltip']/i[@class='fa fa-question-circle']");
+	By addressExportText = By.xpath("//li[text()='Addresses created or updated during the selected date range will be exported in a typical address format with each address component in a separate field.']");
 	
 	
 	public DataExport(WebDriver driver){
@@ -92,6 +94,13 @@ public class DataExport {
 		elementutils.Single_Multi_AllSelectDropDown(threatIndicatorAll, tI);
 		//elementutils.doActionClick(eTIDownload);
 			
+		
+	}
+	
+	public void getAddresstoolTipText(){
+		
+		elementutils.getTextFromToolTip(driver.findElement(addressToolTip), addressExportText);
+		
 		
 	}
 			

@@ -63,6 +63,15 @@ public class ElementUtils {
 		act.click(getElement(locator)).perform();
 
 	}
+	//getTextFromToolTip
+    public void getTextFromToolTip(WebElement element, By locator){
+		
+		Actions action = new Actions(driver);
+		action.moveToElement(element).build().perform();
+		System.out.println(getText(locator));
+				
+		
+	}
 
 	public void doClick(By locator) {
 		getElement(locator).click();
