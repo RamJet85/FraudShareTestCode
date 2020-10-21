@@ -97,9 +97,9 @@ public class DataExport {
 		
 	}
 	
-	public void getAddresstoolTipText(){
+	public String getAddresstoolTipText(){
 		
-		elementutils.getTextFromToolTip(driver.findElement(addressToolTip), addressExportText);
+		return elementutils.getTextFromToolTip(elementutils.getElement(addressToolTip), addressExportText);
 		
 		
 	}

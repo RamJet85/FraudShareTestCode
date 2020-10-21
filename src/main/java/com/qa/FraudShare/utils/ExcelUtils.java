@@ -48,7 +48,8 @@ public class ExcelUtils {
 				
 				for(int j=0;j<totalColumns;j++) {
 					
-					data[i][j] = sheet.getRow(i+1).getCell(j).toString();// storing the data
+					data[i][j] = sheet.getRow(i+1).getCell(j).toString();// storing the data into data object
+					//Converting all the excel data into string
 					
 				}
 			}

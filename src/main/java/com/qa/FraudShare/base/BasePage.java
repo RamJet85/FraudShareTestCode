@@ -57,26 +57,26 @@ public class BasePage {
 		
 		flashElement = prop.getProperty("highlight").trim();
 		
-		String browserNmae = prop.getProperty("browser");
+		String browserName = prop.getProperty("browser");
 		
-		if(browserNmae.equalsIgnoreCase("chrome")){
+		if(browserName.equalsIgnoreCase("chrome")){
 			WebDriverManager.chromedriver().setup();
 			//driver= new ChromeDriver();
 			tlDriver.set(new ChromeDriver());
 		}
-		else if(browserNmae.equalsIgnoreCase("firefox")){
+		else if(browserName.equalsIgnoreCase("firefox")){
 			WebDriverManager.firefoxdriver().setup();
 			//driver = new FirefoxDriver();
 			tlDriver.set(new FirefoxDriver());
 		}
-		else if(browserNmae.equalsIgnoreCase("ie")){
+		else if(browserName.equalsIgnoreCase("ie")){
 			WebDriverManager.iedriver().setup();
 			//driver = new InternetExplorerDriver();
 			tlDriver.set(new InternetExplorerDriver());
 		}
 		
 		else {
-			System.out.println(browserNmae+ " Browser is not found" );
+			System.out.println(browserName+ " Browser is not found" );
 		}
 		
 		getDriver().manage().deleteAllCookies();

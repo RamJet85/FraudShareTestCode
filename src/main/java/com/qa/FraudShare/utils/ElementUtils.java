@@ -64,11 +64,11 @@ public class ElementUtils {
 
 	}
 	//getTextFromToolTip
-    public void getTextFromToolTip(WebElement element, By locator){
+    public String getTextFromToolTip(WebElement element, By locator){
 		
 		Actions action = new Actions(driver);
 		action.moveToElement(element).build().perform();
-		System.out.println(getText(locator));
+		return getText(locator);
 				
 		
 	}

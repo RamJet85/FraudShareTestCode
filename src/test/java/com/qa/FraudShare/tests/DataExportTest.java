@@ -96,6 +96,18 @@ public class DataExportTest {
 		Assert.assertEquals(text, "An error occurred while processing your request. Please Contact Support");
 		
 	}
+	@Test(priority=8)
+	public void backTesta(){
+		dataExport.back();
+	}
+	@Test(priority=9)
+	public void verifyAddressToolTipText(){
+		String text = dataExport.getAddresstoolTipText();
+		System.out.println(text);
+		Assert.assertEquals(text, "Addresses created or updated during the selected "
+				+ "date range will be exported in a typical address format with each "
+				+ "address component in a separate field.");
+	}
 	
 	@DataProvider
 	public Object[][] getTiData(){

@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeTest;
 
 import com.qa.FraudShare.pages.DashBoard;
 import com.qa.FraudShare.pages.DataExport;
+import com.qa.FraudShare.pages.HelpPage;
 import com.qa.FraudShare.pages.IncidentSubmission;
 import com.qa.FraudShare.pages.LoginPage;
 import com.qa.FraudShare.pages.SettingsPage;
@@ -24,6 +25,7 @@ public class BaseTest {
 	public DataExport dataExport;
 	public SettingsPage settingsPage;
 	public SubmissionPage submissionPage;
+	public HelpPage helpPage;
 	
 	@BeforeTest
 	public void setUp(){

@@ -15,7 +15,7 @@ public class LoginPage extends BasePage{
 	
 	//By locators
 	
-	By FruadShareLogo = By.xpath("(//a/img)[position()=1]");
+	private By FruadShareLogo = By.xpath("(//a/img)[position()=1]");
 	By LimraLogo = By.xpath("(//a[@class='navbar-brand']/img)[position()=1]");
 	By LomaLogo = By.xpath("(//a[@class='navbar-brand']/img)[position()=2]");
 	By LoginHeader = By.tagName("h1");

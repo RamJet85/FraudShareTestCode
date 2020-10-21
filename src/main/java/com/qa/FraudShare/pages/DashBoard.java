@@ -17,6 +17,7 @@ public class DashBoard {
 	By IncidentSubmission = By.xpath("//span[contains(text(),'INCIDENT SUBMISSION')]");
 	By Settings = By.xpath("//span[contains(text(),'SETTINGS')]");
 	By DataExport = By.xpath("//span[contains(text(),'DATA EXPORT')]");
+	By help = By.xpath("//span[contains(text(),'HELP')]");
 	By Search = By.xpath("//input[@id='txtFilter']");
 	By TextBox = By.xpath("//div[@class='input-group-text small-textBox']");
 	By TI = By.xpath("//div[contains(text(),'# of Threat Indicators : 0')]");
@@ -53,10 +54,6 @@ public class DashBoard {
 		return new SubmissionPage(driver);
 	}
 	
-	
-	
-	
-	
         
     public DataExport clickOnDataExportTab(){
     	elementutils.waitForElementToBeClickable(DataExport, 10).click();
@@ -66,6 +63,11 @@ public class DashBoard {
     public SettingsPage clickOnSettingsTab(){
     	elementutils.waitForElementToBeClickable(Settings, 10).click();
     	return new SettingsPage(driver);
+    }
+    
+    public HelpPage clickOnHelpTab(){
+    	elementutils.waitForElementToBeClickable(help, 10).click();
+    	return new HelpPage(driver);
     }
     
     public String searchFunctionality(String data){
