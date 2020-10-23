@@ -71,7 +71,7 @@ public class IncidentSubmissionTest extends BaseTest{
 	}
 	
 	@Test(priority=7)
-	public void verifySubmitIncidentwithoutMandatoryValuesTest(){
+	public void verifySubmitIncidentWithoutMandatoryValuesTest(){
 		incidentSubmission.submitIncidentWithoutMandatoryValues();
 	}
 

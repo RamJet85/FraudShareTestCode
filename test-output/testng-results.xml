@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45955" started-at="2020-10-21T05:15:22Z" finished-at="2020-10-21T05:16:08Z">
+  <suite name="Default suite" duration-ms="45019" started-at="2020-10-22T06:13:53Z" finished-at="2020-10-22T06:14:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45955" started-at="2020-10-21T05:15:22Z" finished-at="2020-10-21T05:16:08Z">
+    <test name="Default test" duration-ms="45019" started-at="2020-10-22T06:13:53Z" finished-at="2020-10-22T06:14:38Z">
       <class name="com.qa.FraudShare.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.LoginPageTest@2a1edad4]" name="setUp" is-config="true" duration-ms="26463" started-at="2020-10-21T05:15:22Z" finished-at="2020-10-21T05:15:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.LoginPageTest@716a7124]" name="setUp" is-config="true" duration-ms="25813" started-at="2020-10-22T06:13:53Z" finished-at="2020-10-22T06:14:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyloginPageTitleTest()[pri:1, instance:com.qa.FraudShare.tests.LoginPageTest@2a1edad4]" name="verifyloginPageTitleTest" duration-ms="102" started-at="2020-10-21T05:15:49Z" finished-at="2020-10-21T05:15:49Z">
+        <test-method status="PASS" signature="verifyloginPageTitleTest()[pri:1, instance:com.qa.FraudShare.tests.LoginPageTest@716a7124]" name="verifyloginPageTitleTest" duration-ms="89" started-at="2020-10-22T06:14:19Z" finished-at="2020-10-22T06:14:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginPageTitleTest -->
-        <test-method status="PASS" signature="verifyfraudShareLogoTest()[pri:2, instance:com.qa.FraudShare.tests.LoginPageTest@2a1edad4]" name="verifyfraudShareLogoTest" duration-ms="663" started-at="2020-10-21T05:15:49Z" finished-at="2020-10-21T05:15:50Z">
+        <test-method status="PASS" signature="verifyfraudShareLogoTest()[pri:2, instance:com.qa.FraudShare.tests.LoginPageTest@716a7124]" name="verifyfraudShareLogoTest" duration-ms="648" started-at="2020-10-22T06:14:19Z" finished-at="2020-10-22T06:14:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyfraudShareLogoTest -->
-        <test-method status="PASS" signature="verifyLimraLogoTest()[pri:3, instance:com.qa.FraudShare.tests.LoginPageTest@2a1edad4]" name="verifyLimraLogoTest" duration-ms="624" started-at="2020-10-21T05:15:50Z" finished-at="2020-10-21T05:15:50Z">
+        <test-method status="PASS" signature="verifyLimraLogoTest()[pri:3, instance:com.qa.FraudShare.tests.LoginPageTest@716a7124]" name="verifyLimraLogoTest" duration-ms="668" started-at="2020-10-22T06:14:20Z" finished-at="2020-10-22T06:14:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLimraLogoTest -->
-        <test-method status="PASS" signature="verifyLomaLogoTest()[pri:4, instance:com.qa.FraudShare.tests.LoginPageTest@2a1edad4]" name="verifyLomaLogoTest" duration-ms="599" started-at="2020-10-21T05:15:50Z" finished-at="2020-10-21T05:15:51Z">
+        <test-method status="PASS" signature="verifyLomaLogoTest()[pri:4, instance:com.qa.FraudShare.tests.LoginPageTest@716a7124]" name="verifyLomaLogoTest" duration-ms="652" started-at="2020-10-22T06:14:21Z" finished-at="2020-10-22T06:14:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLomaLogoTest -->
-        <test-method status="PASS" signature="verifyLoginPageHeaderTest()[pri:5, instance:com.qa.FraudShare.tests.LoginPageTest@2a1edad4]" name="verifyLoginPageHeaderTest" duration-ms="1289" started-at="2020-10-21T05:15:51Z" finished-at="2020-10-21T05:15:52Z">
+        <test-method status="PASS" signature="verifyLoginPageHeaderTest()[pri:5, instance:com.qa.FraudShare.tests.LoginPageTest@716a7124]" name="verifyLoginPageHeaderTest" duration-ms="1351" started-at="2020-10-22T06:14:21Z" finished-at="2020-10-22T06:14:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageHeaderTest -->
-        <test-method status="PASS" signature="forgotUsernameLinkIsDisplayed()[pri:6, instance:com.qa.FraudShare.tests.LoginPageTest@2a1edad4]" name="forgotUsernameLinkIsDisplayed" duration-ms="1258" started-at="2020-10-21T05:15:52Z" finished-at="2020-10-21T05:15:54Z">
+        <test-method status="PASS" signature="forgotUsernameLinkIsDisplayed()[pri:6, instance:com.qa.FraudShare.tests.LoginPageTest@716a7124]" name="forgotUsernameLinkIsDisplayed" duration-ms="1216" started-at="2020-10-22T06:14:23Z" finished-at="2020-10-22T06:14:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotUsernameLinkIsDisplayed -->
-        <test-method status="PASS" signature="forgotPasswordLinkIsDisplayed()[pri:7, instance:com.qa.FraudShare.tests.LoginPageTest@2a1edad4]" name="forgotPasswordLinkIsDisplayed" duration-ms="1207" started-at="2020-10-21T05:15:54Z" finished-at="2020-10-21T05:15:55Z">
+        <test-method status="PASS" signature="forgotPasswordLinkIsDisplayed()[pri:7, instance:com.qa.FraudShare.tests.LoginPageTest@716a7124]" name="forgotPasswordLinkIsDisplayed" duration-ms="1234" started-at="2020-10-22T06:14:24Z" finished-at="2020-10-22T06:14:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPasswordLinkIsDisplayed -->
-        <test-method status="PASS" signature="verifyLogintest()[pri:8, instance:com.qa.FraudShare.tests.LoginPageTest@2a1edad4]" name="verifyLogintest" duration-ms="12900" started-at="2020-10-21T05:15:55Z" finished-at="2020-10-21T05:16:08Z">
+        <test-method status="PASS" signature="verifyLogintest()[pri:8, instance:com.qa.FraudShare.tests.LoginPageTest@716a7124]" name="verifyLogintest" duration-ms="12519" started-at="2020-10-22T06:14:25Z" finished-at="2020-10-22T06:14:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogintest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.LoginPageTest@2a1edad4]" name="teardown" is-config="true" duration-ms="670" started-at="2020-10-21T05:16:08Z" finished-at="2020-10-21T05:16:08Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.LoginPageTest@716a7124]" name="teardown" is-config="true" duration-ms="648" started-at="2020-10-22T06:14:38Z" finished-at="2020-10-22T06:14:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
