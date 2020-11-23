@@ -84,7 +84,7 @@ public class ElementUtils {
 	public String getText(By locator) {
 		return getElement(locator).getText();
 	}
-    // This method is used to click on link on a list of links
+    // This method is used to click on one link in a list of links
 	public void doLinkClick(List<WebElement> linklist, String value) {
 
 		System.out.println(linklist.size());

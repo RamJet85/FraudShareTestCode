@@ -97,7 +97,7 @@ public class DataExportTest {
 		
 	}
 	@Test(priority=8)
-	public void backTesta(){
+	public void backTest1(){
 		dataExport.back();
 	}
 	@Test(priority=9)
