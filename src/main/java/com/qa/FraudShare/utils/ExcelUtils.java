@@ -42,7 +42,7 @@ public class ExcelUtils {
 			
 			data = new Object[totalRows][totalColumns]; //two dimensional object array look like a matrix 
 			//Here by object array we are converting the excel sheet data into java object form
-			//To get the data we should iterate the excel data
+			//To get the data we should iterate the excel data file
 			
 			for(int i=0;i<totalRows;i++) {
 				

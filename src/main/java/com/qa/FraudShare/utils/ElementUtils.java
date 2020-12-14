@@ -361,6 +361,7 @@ public class ElementUtils {
 	}
 	// Both these methods are same thing 
     // This method is only for clicking
+	
 	public void clickWhenReady(By locator, int timeOut) {
 
 		WebDriverWait wait = new WebDriverWait(driver, timeOut);

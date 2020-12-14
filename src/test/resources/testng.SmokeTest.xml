@@ -32,5 +32,11 @@
 			<class name ="com.qa.FraudShare.tests.DataExportTest"/>
 		</classes>
 		
+		</test>
+	<test name="EditIncidentPageTest">
+		<classes>
+			<class name ="com.qa.FraudShare.tests.EditIncidentPageTest"/>
+		</classes>
+		
 	</test>
 </suite> <!-- Suite -->

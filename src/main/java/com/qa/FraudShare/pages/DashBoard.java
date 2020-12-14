@@ -22,6 +22,7 @@ public class DashBoard {
 	By TextBox = By.xpath("//div[@class='input-group-text small-textBox']");
 	By TI = By.xpath("//div[contains(text(),'# of Threat Indicators : 0')]");
 	By Companies = By.xpath("//div[contains(text(),'# of Companies : 0')]");
+	private By incidents = By.xpath("//span[contains(text(),'INCIDENTS')]");
 	
 	public DashBoard(WebDriver driver){
 		this.driver = driver;
@@ -69,6 +70,12 @@ public class DashBoard {
     	elementutils.waitForElementToBeClickable(help, 10).click();
     	return new HelpPage(driver);
     }
+    
+    public EditIncidentPage clickOnIncidentsTab(){
+    	elementutils.waitForElementToBeClickable(incidents, 10).click();
+    	return new EditIncidentPage(driver);
+    }
+    
     
     public String searchFunctionality(String data){
     	elementutils.doSendKeys(Search,data);

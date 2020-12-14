@@ -32,7 +32,7 @@ public class BasePage {
 	
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
 	
-	public static String Config_path = "./src/main/java/com/qa/FraudShare/config/config.properties"; 
+	public static String Config_path = "./src/main/java/com/qa/FraudShare/config/config.properties";
 	
 	public Properties init_properties(){
 		
