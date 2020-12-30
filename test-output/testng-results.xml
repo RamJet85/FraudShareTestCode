@@ -1,113 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="1" total="36" passed="33">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="FraudShare Testing Suite" duration-ms="160642" started-at="2020-12-14T06:04:26Z" finished-at="2020-12-14T06:07:07Z">
+  <suite name="Default suite" duration-ms="71146" started-at="2020-12-28T11:12:45Z" finished-at="2020-12-28T11:13:56Z">
     <groups>
     </groups>
-    <test name="LoginPage Test" duration-ms="22910" started-at="2020-12-14T06:04:26Z" finished-at="2020-12-14T06:04:49Z">
-      <class name="com.qa.FraudShare.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.LoginPageTest@1e287667]" name="setUp" is-config="true" duration-ms="11058" started-at="2020-12-14T06:04:26Z" finished-at="2020-12-14T06:04:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyloginPageTitleTest()[pri:1, instance:com.qa.FraudShare.tests.LoginPageTest@1e287667]" name="verifyloginPageTitleTest" duration-ms="71" started-at="2020-12-14T06:04:37Z" finished-at="2020-12-14T06:04:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyloginPageTitleTest -->
-        <test-method status="PASS" signature="verifyfraudShareLogoTest()[pri:2, instance:com.qa.FraudShare.tests.LoginPageTest@1e287667]" name="verifyfraudShareLogoTest" duration-ms="573" started-at="2020-12-14T06:04:37Z" finished-at="2020-12-14T06:04:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyfraudShareLogoTest -->
-        <test-method status="PASS" signature="verifyLimraLogoTest()[pri:3, instance:com.qa.FraudShare.tests.LoginPageTest@1e287667]" name="verifyLimraLogoTest" duration-ms="562" started-at="2020-12-14T06:04:38Z" finished-at="2020-12-14T06:04:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLimraLogoTest -->
-        <test-method status="PASS" signature="verifyLomaLogoTest()[pri:4, instance:com.qa.FraudShare.tests.LoginPageTest@1e287667]" name="verifyLomaLogoTest" duration-ms="586" started-at="2020-12-14T06:04:38Z" finished-at="2020-12-14T06:04:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLomaLogoTest -->
-        <test-method status="PASS" signature="verifyLoginPageHeaderTest()[pri:5, instance:com.qa.FraudShare.tests.LoginPageTest@1e287667]" name="verifyLoginPageHeaderTest" duration-ms="1252" started-at="2020-12-14T06:04:39Z" finished-at="2020-12-14T06:04:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageHeaderTest -->
-        <test-method status="PASS" signature="forgotUsernameLinkIsDisplayed()[pri:6, instance:com.qa.FraudShare.tests.LoginPageTest@1e287667]" name="forgotUsernameLinkIsDisplayed" duration-ms="1200" started-at="2020-12-14T06:04:40Z" finished-at="2020-12-14T06:04:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotUsernameLinkIsDisplayed -->
-        <test-method status="PASS" signature="forgotPasswordLinkIsDisplayed()[pri:7, instance:com.qa.FraudShare.tests.LoginPageTest@1e287667]" name="forgotPasswordLinkIsDisplayed" duration-ms="1259" started-at="2020-12-14T06:04:41Z" finished-at="2020-12-14T06:04:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotPasswordLinkIsDisplayed -->
-        <test-method status="PASS" signature="verifyLogintest()[pri:8, instance:com.qa.FraudShare.tests.LoginPageTest@1e287667]" name="verifyLogintest" duration-ms="5566" started-at="2020-12-14T06:04:43Z" finished-at="2020-12-14T06:04:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogintest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.LoginPageTest@1e287667]" name="teardown" is-config="true" duration-ms="641" started-at="2020-12-14T06:04:48Z" finished-at="2020-12-14T06:04:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.qa.FraudShare.tests.LoginPageTest -->
-    </test> <!-- LoginPage Test -->
-    <test name="DashBoard Test" duration-ms="18210" started-at="2020-12-14T06:04:49Z" finished-at="2020-12-14T06:05:07Z">
-      <class name="com.qa.FraudShare.tests.DashBoardTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@3b4ef7]" name="setUp" is-config="true" duration-ms="9911" started-at="2020-12-14T06:04:49Z" finished-at="2020-12-14T06:04:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="DashBoardSetup()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@3b4ef7]" name="DashBoardSetup" is-config="true" duration-ms="4716" started-at="2020-12-14T06:04:59Z" finished-at="2020-12-14T06:05:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DashBoardSetup -->
-        <test-method status="PASS" signature="verifyDashBoardTitleTest()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@3b4ef7]" name="verifyDashBoardTitleTest" duration-ms="10" started-at="2020-12-14T06:05:04Z" finished-at="2020-12-14T06:05:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDashBoardTitleTest -->
-        <test-method status="PASS" signature="verifyTrendingChartsHeaderTest()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@3b4ef7]" name="verifyTrendingChartsHeaderTest" duration-ms="1152" started-at="2020-12-14T06:05:04Z" finished-at="2020-12-14T06:05:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTrendingChartsHeaderTest -->
-        <test-method status="PASS" signature="verifyWSearchFunctionality()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@3b4ef7]" name="verifyWSearchFunctionality" duration-ms="1767" started-at="2020-12-14T06:05:05Z" finished-at="2020-12-14T06:05:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyWSearchFunctionality -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.DashBoardTest@3b4ef7]" name="teardown" is-config="true" duration-ms="644" started-at="2020-12-14T06:05:07Z" finished-at="2020-12-14T06:05:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.qa.FraudShare.tests.DashBoardTest -->
-    </test> <!-- DashBoard Test -->
-    <test name="IncidentSubmission Test" duration-ms="38023" started-at="2020-12-14T06:05:08Z" finished-at="2020-12-14T06:05:46Z">
+    <test name="Default test" duration-ms="71146" started-at="2020-12-28T11:12:45Z" finished-at="2020-12-28T11:13:56Z">
       <class name="com.qa.FraudShare.tests.IncidentSubmissionTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@273c947f]" name="setUp" is-config="true" duration-ms="10268" started-at="2020-12-14T06:05:08Z" finished-at="2020-12-14T06:05:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@4e76dac]" name="setUp" is-config="true" duration-ms="24189" started-at="2020-12-28T11:12:45Z" finished-at="2020-12-28T11:13:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IncidentSubmissionPageSetUp()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@273c947f]" name="IncidentSubmissionPageSetUp" is-config="true" duration-ms="5500" started-at="2020-12-14T06:05:18Z" finished-at="2020-12-14T06:05:23Z">
+        <test-method status="PASS" signature="IncidentSubmissionPageSetUp()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@4e76dac]" name="IncidentSubmissionPageSetUp" is-config="true" duration-ms="19785" started-at="2020-12-28T11:13:09Z" finished-at="2020-12-28T11:13:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IncidentSubmissionPageSetUp -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionPageTilte()[pri:1, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@273c947f]" name="verifyIncidentSubmissionPageTilte" duration-ms="10" started-at="2020-12-14T06:05:23Z" finished-at="2020-12-14T06:05:23Z">
+        <test-method status="PASS" signature="verifyIncidentSubmissionPageTilte()[pri:1, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@4e76dac]" name="verifyIncidentSubmissionPageTilte" duration-ms="71" started-at="2020-12-28T11:13:29Z" finished-at="2020-12-28T11:13:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncidentSubmissionPageTilte -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionValueTest()[pri:2, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@273c947f]" name="verifyIncidentSubmissionValueTest" duration-ms="1181" started-at="2020-12-14T06:05:23Z" finished-at="2020-12-14T06:05:25Z">
+        <test-method status="PASS" signature="verifyIncidentSubmissionValueTest()[pri:2, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@4e76dac]" name="verifyIncidentSubmissionValueTest" duration-ms="1143" started-at="2020-12-28T11:13:29Z" finished-at="2020-12-28T11:13:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncidentSubmissionValueTest -->
-        <test-method status="PASS" signature="verifyBatchUploadValueTest()[pri:3, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@273c947f]" name="verifyBatchUploadValueTest" duration-ms="1292" started-at="2020-12-14T06:05:25Z" finished-at="2020-12-14T06:05:26Z">
+        <test-method status="PASS" signature="verifyBatchUploadValueTest()[pri:3, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@4e76dac]" name="verifyBatchUploadValueTest" duration-ms="1259" started-at="2020-12-28T11:13:30Z" finished-at="2020-12-28T11:13:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBatchUploadValueTest -->
-        <test-method status="PASS" signature="verifyProductLineTest()[pri:4, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@273c947f]" name="verifyProductLineTest" duration-ms="24" started-at="2020-12-14T06:05:26Z" finished-at="2020-12-14T06:05:26Z">
+        <test-method status="PASS" signature="verifyProductLineTest()[pri:4, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@4e76dac]" name="verifyProductLineTest" duration-ms="22" started-at="2020-12-28T11:13:31Z" finished-at="2020-12-28T11:13:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductLineTest -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionTest()[pri:5, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@273c947f]" name="verifyIncidentSubmissionTest" duration-ms="4517" started-at="2020-12-14T06:05:26Z" finished-at="2020-12-14T06:05:30Z">
+        <test-method status="PASS" signature="verifyIncidentSubmissionTest()[pri:5, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@4e76dac]" name="verifyIncidentSubmissionTest" duration-ms="5297" started-at="2020-12-28T11:13:31Z" finished-at="2020-12-28T11:13:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncidentSubmissionTest -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@273c947f]" name="verifyIncidentSubmissionFromExcel" duration-ms="3947" started-at="2020-12-14T06:05:31Z" data-provider="getTestData" finished-at="2020-12-14T06:05:35Z">
+        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@4e76dac]" name="verifyIncidentSubmissionFromExcel" duration-ms="5154" started-at="2020-12-28T11:13:37Z" data-provider="getTestData" finished-at="2020-12-28T11:13:42Z">
           <params>
             <param index="0">
               <value>
@@ -178,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncidentSubmissionFromExcel -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@273c947f]" name="verifyIncidentSubmissionFromExcel" duration-ms="3924" started-at="2020-12-14T06:05:35Z" data-provider="getTestData" finished-at="2020-12-14T06:05:39Z">
+        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@4e76dac]" name="verifyIncidentSubmissionFromExcel" duration-ms="4998" started-at="2020-12-28T11:13:42Z" data-provider="getTestData" finished-at="2020-12-28T11:13:47Z">
           <params>
             <param index="0">
               <value>
@@ -249,7 +177,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncidentSubmissionFromExcel -->
-        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@273c947f]" name="verifyIncidentSubmissionFromExcel" duration-ms="3908" started-at="2020-12-14T06:05:39Z" data-provider="getTestData" finished-at="2020-12-14T06:05:43Z">
+        <test-method status="PASS" signature="verifyIncidentSubmissionFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@4e76dac]" name="verifyIncidentSubmissionFromExcel" duration-ms="5553" started-at="2020-12-28T11:13:47Z" data-provider="getTestData" finished-at="2020-12-28T11:13:53Z">
           <params>
             <param index="0">
               <value>
@@ -320,265 +248,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncidentSubmissionFromExcel -->
-        <test-method status="PASS" signature="verifySubmitIncidentWithoutMandatoryValuesTest()[pri:7, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@273c947f]" name="verifySubmitIncidentWithoutMandatoryValuesTest" duration-ms="2030" started-at="2020-12-14T06:05:43Z" finished-at="2020-12-14T06:05:45Z">
+        <test-method status="PASS" signature="verifySubmitIncidentWithoutMandatoryValuesTest()[pri:7, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@4e76dac]" name="verifySubmitIncidentWithoutMandatoryValuesTest" duration-ms="2099" started-at="2020-12-28T11:13:53Z" finished-at="2020-12-28T11:13:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubmitIncidentWithoutMandatoryValuesTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@273c947f]" name="teardown" is-config="true" duration-ms="648" started-at="2020-12-14T06:05:45Z" finished-at="2020-12-14T06:05:46Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.IncidentSubmissionTest@4e76dac]" name="teardown" is-config="true" duration-ms="626" started-at="2020-12-28T11:13:55Z" finished-at="2020-12-28T11:13:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.FraudShare.tests.IncidentSubmissionTest -->
-    </test> <!-- IncidentSubmission Test -->
-    <test name="DataExport Test" duration-ms="27458" started-at="2020-12-14T06:05:46Z" finished-at="2020-12-14T06:06:13Z">
-      <class name="com.qa.FraudShare.tests.DataExportTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="setup" is-config="true" duration-ms="12600" started-at="2020-12-14T06:05:46Z" finished-at="2020-12-14T06:05:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="login" is-config="true" duration-ms="5497" started-at="2020-12-14T06:05:58Z" finished-at="2020-12-14T06:06:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="verifyExportTiTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="verifyExportTiTest" duration-ms="147" started-at="2020-12-14T06:06:04Z" data-provider="getTiData" finished-at="2020-12-14T06:06:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[28-Sep-2019]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[28-Sep-2020]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Fax Number]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyExportTiTest -->
-        <test-method status="PASS" signature="verifyDataExportTitleTest()[pri:1, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="verifyDataExportTitleTest" duration-ms="7" started-at="2020-12-14T06:06:04Z" finished-at="2020-12-14T06:06:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDataExportTitleTest -->
-        <test-method status="PASS" signature="verifyHeaderTest()[pri:2, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="verifyHeaderTest" duration-ms="1165" started-at="2020-12-14T06:06:04Z" finished-at="2020-12-14T06:06:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHeaderTest -->
-        <test-method status="PASS" signature="verifyEIDTest()[pri:3, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="verifyEIDTest" duration-ms="1274" started-at="2020-12-14T06:06:05Z" finished-at="2020-12-14T06:06:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEIDTest -->
-        <test-method status="PASS" signature="verifyETITest()[pri:4, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="verifyETITest" duration-ms="1276" started-at="2020-12-14T06:06:06Z" finished-at="2020-12-14T06:06:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyETITest -->
-        <test-method status="PASS" signature="verifyEIDdownload(java.lang.String, java.lang.String)[pri:5, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="verifyEIDdownload" duration-ms="814" started-at="2020-12-14T06:06:08Z" data-provider="getExportIncidentsData" finished-at="2020-12-14T06:06:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[12-Sep-2013]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12-Sep-2019]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEIDdownload -->
-        <test-method status="PASS" signature="verifyEIDdownload(java.lang.String, java.lang.String)[pri:5, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="verifyEIDdownload" duration-ms="716" started-at="2020-12-14T06:06:08Z" data-provider="getExportIncidentsData" finished-at="2020-12-14T06:06:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10/19/218]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10/12/220]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEIDdownload -->
-        <test-method status="PASS" signature="backTest()[pri:6, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="backTest" duration-ms="68" started-at="2020-12-14T06:06:09Z" finished-at="2020-12-14T06:06:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backTest -->
-        <test-method status="PASS" signature="verifyEIDwithInvalid()[pri:7, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="verifyEIDwithInvalid" duration-ms="1645" started-at="2020-12-14T06:06:09Z" finished-at="2020-12-14T06:06:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEIDwithInvalid -->
-        <test-method status="PASS" signature="backTest1()[pri:8, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="backTest1" duration-ms="79" started-at="2020-12-14T06:06:11Z" finished-at="2020-12-14T06:06:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backTest1 -->
-        <test-method status="PASS" signature="verifyAddressToolTipText()[pri:9, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="verifyAddressToolTipText" duration-ms="1420" started-at="2020-12-14T06:06:11Z" finished-at="2020-12-14T06:06:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddressToolTipText -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.DataExportTest@c1a4620]" name="teardown" is-config="true" duration-ms="641" started-at="2020-12-14T06:06:12Z" finished-at="2020-12-14T06:06:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.qa.FraudShare.tests.DataExportTest -->
-    </test> <!-- DataExport Test -->
-    <test name="EditIncidentPageTest" duration-ms="53570" started-at="2020-12-14T06:06:13Z" finished-at="2020-12-14T06:07:07Z">
-      <class name="com.qa.FraudShare.tests.EditIncidentPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.FraudShare.tests.EditIncidentPageTest@5710768a]" name="setUp" is-config="true" duration-ms="11365" started-at="2020-12-14T06:06:13Z" finished-at="2020-12-14T06:06:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.qa.FraudShare.tests.EditIncidentPageTest@5710768a]" name="login" is-config="true" duration-ms="7597" started-at="2020-12-14T06:06:24Z" finished-at="2020-12-14T06:06:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="verifyEditIncidentTitleTest()[pri:1, instance:com.qa.FraudShare.tests.EditIncidentPageTest@5710768a]" name="verifyEditIncidentTitleTest" duration-ms="560" started-at="2020-12-14T06:06:32Z" finished-at="2020-12-14T06:06:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEditIncidentTitleTest -->
-        <test-method status="PASS" signature="verifyPageHeaderTest()[pri:2, instance:com.qa.FraudShare.tests.EditIncidentPageTest@5710768a]" name="verifyPageHeaderTest" duration-ms="1136" started-at="2020-12-14T06:06:33Z" finished-at="2020-12-14T06:06:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPageHeaderTest -->
-        <test-method status="FAIL" signature="verifySearchFunctionality()[pri:3, instance:com.qa.FraudShare.tests.EditIncidentPageTest@5710768a]" name="verifySearchFunctionality" duration-ms="16602" started-at="2020-12-14T06:06:34Z" finished-at="2020-12-14T06:06:50Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //td[contains(text(),'1004512')] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CTD1010', ip: '172.23.6.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\rperabat\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: be1c660603bf51e2ffde923bd16ee443]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //td[contains(text(),'1004512')] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CTD1010', ip: '172.23.6.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\rperabat\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: be1c660603bf51e2ffde923bd16ee443
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.qa.FraudShare.utils.ElementUtils.clickWhenReady(ElementUtils.java:368)
-at com.qa.FraudShare.pages.EditIncidentPage.searchFunctionality(EditIncidentPage.java:52)
-at com.qa.FraudShare.tests.EditIncidentPageTest.verifySearchFunctionality(EditIncidentPageTest.java:60)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchFunctionality -->
-        <test-method status="FAIL" signature="verifyeditIncidentLableTest()[pri:4, instance:com.qa.FraudShare.tests.EditIncidentPageTest@5710768a]" name="verifyeditIncidentLableTest" duration-ms="15034" started-at="2020-12-14T06:06:51Z" finished-at="2020-12-14T06:07:06Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='editOn']"}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CTD1010', ip: '172.23.6.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\rperabat\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: be1c660603bf51e2ffde923bd16ee443
-*** Element info: {Using=xpath, value=//input[@id='editOn']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='editOn']"}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CTD1010', ip: '172.23.6.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\rperabat\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: be1c660603bf51e2ffde923bd16ee443
-*** Element info: {Using=xpath, value=//input[@id='editOn']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.qa.FraudShare.utils.ElementUtils.getElement(ElementUtils.java:32)
-at com.qa.FraudShare.utils.ElementUtils.isDisplayed(ElementUtils.java:81)
-at com.qa.FraudShare.pages.EditIncidentPage.EditIncidentLabelExists(EditIncidentPage.java:43)
-at com.qa.FraudShare.tests.EditIncidentPageTest.verifyeditIncidentLableTest(EditIncidentPageTest.java:64)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyeditIncidentLableTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FraudShare.tests.EditIncidentPageTest@5710768a]" name="teardown" is-config="true" duration-ms="644" started-at="2020-12-14T06:07:06Z" finished-at="2020-12-14T06:07:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.qa.FraudShare.tests.EditIncidentPageTest -->
-    </test> <!-- EditIncidentPageTest -->
-  </suite> <!-- FraudShare Testing Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
